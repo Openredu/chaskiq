@@ -1,0 +1,71 @@
+
+en:
+  messenger:
+    runon: 'Nós usamos Chaskiq'
+    conversation_block:
+      choosen: 'Você respondeu <strong>%{field}</strong>'
+    continue_conversation: 'Continuar conversa'
+    start_conversation: 'Iniciar conversa' 
+    view_all_conversations: 'ver todas as conversas'
+    see_previous: 'Ver anterior'
+    search_article_title: 'Encontre respostas em nosso repositório de artigos'
+    search_articles: 'Pesquisar artigos'
+    latest_articles: 'Nossos últimos artigos'
+    reply_above: 'Responda acima'
+    create_new_conversation: 'criar nova conversa'
+    you: 'Você'
+    not_seen: 'não visualizado'
+    by: 'Por'
+    dismiss: 'Dispensar'
+    submit: 'Enviar'
+    article_meta: 'Por: <strong>%{name}</strong> em <time>%{date}</time>'
+    enter_your: 'Digite seu %{field}'
+    closed_conversation: 'Essa conversa foi encerrada'
+
+    editor:
+      placeholder: 'Enviar mensagem...'
+    conversations:
+      title: 'Conversas'
+      events:
+        assigned: '%{name} foi atribuído a essa conversa'
+      message_blocks:
+        ask_option: 'está esperando por sua resposta'
+        data_retrieval: 'está esperando por sua resposta'
+        app_package_wait_reply: 'está esperando por sua resposta'
+        app_package_non_wait: 'lhe enviou um conteúdo'
+
+    reply_time:
+      auto: 'A equipe responderá assim que possível'
+      minutes: 'A equipe geralmente responde em minutos'
+      hours: 'A equipe geralmente responde em algumas horas'
+      1day: 'A equipe geralmente responde em um dia'
+
+    is_typing: '%{name} está digitando'
+    availability:
+      aprox: "estaremos de volta em aproximadamente %{time} horas"
+      tomorrow: "estaremos de volta amanhã"
+      days: "estaremos de volta em %{val} dias"
+      next_week: "estaremos de volta semana que vem"
+      back_from: "estaremos de volta online a partir das %{hours} horas"
+      tomorrow_from: "estaremos de volta online tomorrow a partir das %{hours} horas"
+    tours:
+      done: 'Pronto!'
+    invalid: '%{name} informado é inválido'
+    gdpr_title: 'Proteção de dados'
+    gdpr_ok: 'Sim, aceitar'
+    gdpr_nok: 'Não, agora não'
+    gdpr: "<p>
+        Olá! nós da %{name} adoramos conversar com você.
+        Para ficarmos em conformidade com a LGPD (Lei Geral de Proteção de Dados Pessoais), precisamos da sua aprovação
+        para utilizarmos suas informações pessoais (por exemplo, seu nome e endereço de email) que você pode por ventura
+        nos informar enquanto nos comunicamos:
+      </p>
+      <p>(1) Nós vamos armazenar suas informações pessoais para que possamos retomar a conversa se voltarmos a nos falar posteriormente.</p>
+      <p>(2) Nós podemos lhe enviar um email para continuar a conversa que começamos aqui.</p>
+      <p>(3) Podemos lhe enviar emails sobre novos serviços e promoções referentes a %{name}.</p>
+
+      <p>tudo bem por você?</p>
+    "
+      
+
+
