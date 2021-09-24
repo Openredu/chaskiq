@@ -112,7 +112,7 @@ Rails.application.configure do
       password: ENV['SMTP_PASSWORD'], # Your SMTP password here.
       domain: ENV['SMTP_DOMAIN'],
       address: ENV['SMTP_ADDRESS'],
-      port: ENV['SMTP_PORT'],
+      port: ENV['SMTP_PORT'].try(:to_i) || 587,
       authentication: ENV['SMTP_AUTH'].try(:to_sym) || :login,
       enable_starttls_auto: true
     }
