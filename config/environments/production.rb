@@ -110,7 +110,7 @@ Rails.application.configure do
     config.action_mailer.smtp_settings = {
       user_name: ENV['SMTP_USERNAME'], # Your SMTP user here.
       password: ENV['SMTP_PASSWORD'], # Your SMTP password here.
-      domain: ENV['SMTP_DOMAIN']
+      domain: ENV['SMTP_DOMAIN'],
       address: ENV['SMTP_ADDRESS'],
       port: ENV['SMTP_PORT'],
       authentication: ENV['SMTP_AUTH'].try(:to_sym) || :login,
