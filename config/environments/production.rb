@@ -108,10 +108,12 @@ Rails.application.configure do
   if delivery_method.downcase == 'smtp'
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
-      address: ENV['SMTP_ADDRESS'],
       user_name: ENV['SMTP_USERNAME'], # Your SMTP user here.
       password: ENV['SMTP_PASSWORD'], # Your SMTP password here.
-      authentication: :login,
+      domain: ENV['SMTP_DOMAIN']
+      address: ENV['SMTP_ADDRESS'],
+      port: ENV['SMTP_PORT'],
+      authentication: ENV['SMTP_AUTH'].try(:to_sym) || :login,
       enable_starttls_auto: true
     }
   else
